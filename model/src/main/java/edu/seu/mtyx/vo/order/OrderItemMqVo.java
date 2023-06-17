@@ -1,6 +1,6 @@
 package edu.seu.mtyx.vo.order;
 
-import com.atguigu.ssyx.enums.SkuType;
+import edu.seu.mtyx.enums.SkuType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

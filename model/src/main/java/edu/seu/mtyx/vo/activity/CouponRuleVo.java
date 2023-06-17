@@ -1,7 +1,7 @@
 package edu.seu.mtyx.vo.activity;
 
-import com.atguigu.ssyx.enums.CouponRangeType;
-import com.atguigu.ssyx.model.activity.CouponRange;
+import edu.seu.mtyx.enums.CouponRangeType;
+import edu.seu.mtyx.model.activity.CouponRange;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

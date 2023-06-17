@@ -1,7 +1,7 @@
 package edu.seu.mtyx.vo.activity;
 
-import com.atguigu.ssyx.model.activity.ActivityRule;
-import com.atguigu.ssyx.model.activity.ActivitySku;
+import edu.seu.mtyx.model.activity.ActivityRule;
+import edu.seu.mtyx.model.activity.ActivitySku;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

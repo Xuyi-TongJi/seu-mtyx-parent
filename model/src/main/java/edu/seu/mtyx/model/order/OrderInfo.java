@@ -1,8 +1,8 @@
 package edu.seu.mtyx.model.order;
 
-import com.atguigu.ssyx.enums.OrderStatus;
-import com.atguigu.ssyx.enums.ProcessStatus;
-import com.atguigu.ssyx.model.base.BaseEntity;
+import edu.seu.mtyx.enums.OrderStatus;
+import edu.seu.mtyx.enums.ProcessStatus;
+import edu.seu.mtyx.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonFormat;

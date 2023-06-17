@@ -1,6 +1,6 @@
 package edu.seu.mtyx.model.activity;
 
-import com.atguigu.ssyx.model.base.BaseEntity;
+import edu.seu.mtyx.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;

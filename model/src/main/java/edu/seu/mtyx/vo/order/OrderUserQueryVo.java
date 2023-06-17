@@ -1,6 +1,6 @@
 package edu.seu.mtyx.vo.order;
 
-import com.atguigu.ssyx.enums.OrderStatus;
+import edu.seu.mtyx.enums.OrderStatus;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 

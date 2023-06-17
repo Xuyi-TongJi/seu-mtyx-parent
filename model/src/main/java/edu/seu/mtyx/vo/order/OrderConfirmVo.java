@@ -1,7 +1,7 @@
 package edu.seu.mtyx.vo.order;
 
-import com.atguigu.ssyx.model.activity.CouponInfo;
-import com.atguigu.ssyx.vo.user.LeaderAddressVo;
+import edu.seu.mtyx.model.activity.CouponInfo;
+import edu.seu.mtyx.vo.user.LeaderAddressVo;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 

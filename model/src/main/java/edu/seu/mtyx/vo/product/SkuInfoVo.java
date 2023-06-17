@@ -1,10 +1,10 @@
 package edu.seu.mtyx.vo.product;
 
-import com.atguigu.ssyx.model.product.*;
-import com.atguigu.ssyx.model.product.SkuAttrValue;
-import com.atguigu.ssyx.model.product.SkuImage;
-import com.atguigu.ssyx.model.product.SkuInfo;
-import com.atguigu.ssyx.model.product.SkuPoster;
+import edu.seu.mtyx.model.product.*;
+import edu.seu.mtyx.model.product.SkuAttrValue;
+import edu.seu.mtyx.model.product.SkuImage;
+import edu.seu.mtyx.model.product.SkuInfo;
+import edu.seu.mtyx.model.product.SkuPoster;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 

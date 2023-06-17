@@ -1,6 +1,6 @@
 package edu.seu.mtyx.model.order;
 
-import com.atguigu.ssyx.model.base.BaseEntity;
+import edu.seu.mtyx.model.base.BaseEntity;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

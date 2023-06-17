@@ -1,8 +1,8 @@
 package edu.seu.mtyx.model.order;
 
-import com.atguigu.ssyx.enums.PaymentStatus;
-import com.atguigu.ssyx.enums.PaymentType;
-import com.atguigu.ssyx.model.base.BaseEntity;
+import edu.seu.mtyx.enums.PaymentStatus;
+import edu.seu.mtyx.enums.PaymentType;
+import edu.seu.mtyx.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
