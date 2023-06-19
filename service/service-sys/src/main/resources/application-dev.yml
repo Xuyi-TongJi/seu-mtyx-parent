@@ -1,5 +1,5 @@
 server:
-  port: 8201
+  port: 8202
 
 mybatis-plus:
   configuration:
@@ -9,9 +9,9 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shequ-acl?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/shequ-sys?characterEncoding=utf-8&useSSL=false
     username: root
-    password: Woshij8dan!
+    password: root
 
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

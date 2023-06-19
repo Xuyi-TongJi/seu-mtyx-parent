@@ -17,6 +17,7 @@
     <url>http://www.example.com</url>
     <modules>
         <module>service-acl</module>
+        <module>service-sys</module>
     </modules>
 
     <properties>

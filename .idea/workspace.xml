@@ -5,24 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/mapper/AdminRoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/AdminRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/impl/AdminRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/MD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/PermissionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/mapper/PermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/PermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/impl/PermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/ServiceSysApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/mapper/RegionWareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/RegionWareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/impl/RegionWareServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/src/main/java/edu/seu/mtyx/model/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/edu/seu/mtyx/model/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service-util/src/test/java/edu/seu/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/test/java/edu/seu/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/MD5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686852195635</updated>
       <workItem from="1686852196748" duration="18183000" />
-      <workItem from="1687090833889" duration="14351000" />
+      <workItem from="1687090833889" duration="27327000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686963807264</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686963807265</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="admin模块和登录模块开发">
+      <created>1687109997724</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687109997724</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +156,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="admin模块和登录模块开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin模块和登录模块开发" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
