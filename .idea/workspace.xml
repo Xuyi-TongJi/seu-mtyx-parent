@@ -5,28 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/mapper/PermissionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/ServiceSysApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/mapper/RegionWareMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/RegionWareService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/impl/RegionWareServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/ServiceProductApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/WareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/mapper/RegionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/mapper/WareMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/RegionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/WareService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/impl/RegionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/impl/WareServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/service-util/src/test/java/edu/seu/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/test/java/edu/seu/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/MD5.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/utils/MD5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/ServiceAclApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/ServiceAclApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/RegionWareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/RegionWareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/impl/RegionWareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/service/impl/RegionWareServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +92,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model/src/main/java/edu/seu/mtyx/model" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/service/service-product/src/main/java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -105,10 +106,10 @@
   <component name="RunManager">
     <configuration name="ServiceAclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-acl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceAclApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.acl.ServiceAclApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="PATTERN" value="edu.seu.mtyx.acl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686852195635</updated>
       <workItem from="1686852196748" duration="18183000" />
-      <workItem from="1687090833889" duration="27327000" />
+      <workItem from="1687090833889" duration="32889000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686963807264</created>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687109997724</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="regionWare模块开发">
+      <created>1687167970748</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687167970748</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +165,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="admin模块和登录模块开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="admin模块和登录模块开发" />
+    <MESSAGE value="regionWare模块开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="regionWare模块开发" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,12 +1,12 @@
-package edu.seu.mtyx;
+package edu.seu.mtyx.product;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceAclApplication {
+public class ServiceProductApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceAclApplication.class, args);
+        SpringApplication.run(ServiceProductApplication.class);
     }
 }
