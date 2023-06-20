@@ -5,12 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/SkuInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/AttrGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/AttrMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/MqRepeatRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/SkuAttrValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/SkuImageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/SkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/SkuPosterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/mapper/SkuStockHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/AttrGroupService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/AttrService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuAttrValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuImageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuPosterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuStockHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/AttrGroupServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/AttrServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686852195635</updated>
       <workItem from="1686852196748" duration="18183000" />
-      <workItem from="1687090833889" duration="34845000" />
+      <workItem from="1687090833889" duration="41408000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686963807264</created>
@@ -149,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687208994452</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RegionWare模块开发">
+      <created>1687253486009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687253486009</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
