@@ -4,23 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/FileUploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/AliyunOssFileUploadServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuAttrValueServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuImageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuPosterServiceImpl.java" afterDir="false" />
+    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="Product模块开发">
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-produce-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-produce-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/ServiceSearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/controller/SkuApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/repository/SkuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/SkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/SkuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/SkuInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuAttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuAttrValueService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuPosterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuPosterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/edu/seu/mtyx/common/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/edu/seu/mtyx/common/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/ServiceAclApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/ServiceAclApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/ServiceProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/ServiceProductApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/ServiceSysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/ServiceSysApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -79,11 +93,14 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propGUI",
-    "spring.configuration.checksum": "1beb7c26905f7d1e6424502e0cfea75d",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "spring.configuration.checksum": "c4b2ff827f75e068a3d8a03c49b1c78a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model/src/main/java/edu/seu/mtyx/model" />
@@ -99,13 +116,52 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ServiceAclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-acl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.acl.ServiceAclApplication" />
+  <component name="RunManager" selected="Spring Boot.ServiceProductApplication">
+    <configuration name="edu.seu.mtyx.ServiceProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.seu.mtyx.ServiceProductApplication" />
+      <module name="service-product" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.seu.mtyx.acl.*" />
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceAclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-acl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceAclApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceSysApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +171,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ServiceSysApplication" />
+        <item itemvalue="Spring Boot.ServiceProductApplication" />
         <item itemvalue="Spring Boot.ServiceAclApplication" />
+        <item itemvalue="Application.edu.seu.mtyx.ServiceProductApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686852195635</updated>
       <workItem from="1686852196748" duration="18183000" />
-      <workItem from="1687090833889" duration="54362000" />
+      <workItem from="1687090833889" duration="74414000" />
+      <workItem from="1687614606586" duration="4480000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686963807264</created>
@@ -172,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687280241262</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Product模块开发">
+      <created>1687529796356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687529796356</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

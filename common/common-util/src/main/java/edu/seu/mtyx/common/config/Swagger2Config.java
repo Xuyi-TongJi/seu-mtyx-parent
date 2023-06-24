@@ -38,7 +38,7 @@ public class Swagger2Config {
                 .build();
         pars.add(tokenPar.build());
 
-        Docket webApi = new Docket(DocumentationType.SWAGGER_2)
+        return new Docket(DocumentationType.SWAGGER_2)
                 .groupName("webApi")
                 .apiInfo(webApiInfo())
                 .select()
@@ -47,7 +47,6 @@ public class Swagger2Config {
                 .paths(PathSelectors.regex("/api/.*"))
                 .build()
                 .globalOperationParameters(pars);
-        return webApi;
     }
 
     @Bean
@@ -63,7 +62,7 @@ public class Swagger2Config {
                 .build();
         pars.add(tokenPar.build());
 
-        Docket adminApi = new Docket(DocumentationType.SWAGGER_2)
+        return new Docket(DocumentationType.SWAGGER_2)
                 .groupName("adminApi")
                 .apiInfo(adminApiInfo())
                 .select()
@@ -72,7 +71,6 @@ public class Swagger2Config {
                 .paths(PathSelectors.regex("/admin/.*"))
                 .build()
                 .globalOperationParameters(pars);
-        return adminApi;
     }
 
     private ApiInfo webApiInfo(){

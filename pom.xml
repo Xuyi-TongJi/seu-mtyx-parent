@@ -12,6 +12,7 @@
     <module>common</module>
     <module>service</module>
     <module>model</module>
+      <module>service-client</module>
   </modules>
 
   <name>seu-mtyx-parent</name>
