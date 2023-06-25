@@ -4,37 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="Product模块开发">
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-produce-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-produce-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/ServiceSearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/controller/SkuApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/repository/SkuRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/SkuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/impl/SkuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/common-util/src/main/java/edu/seu/mtyx/common/config/MqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/constant/MqConst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/service/RabbitService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/edu/seu/mtyx/common/config/Swagger2Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/src/main/java/edu/seu/mtyx/common/config/Swagger2Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common-util/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/ServiceAclApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/ServiceAclApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/ServiceProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/ServiceProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/ServiceSysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/ServiceSysApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/rabbit-util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/rabbit-util/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +21,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/AbstractJackson2MessageConverter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/AbstractMessageConverter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/MessageConverter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -188,7 +171,7 @@
       <updated>1686852195635</updated>
       <workItem from="1686852196748" duration="18183000" />
       <workItem from="1687090833889" duration="74414000" />
-      <workItem from="1687614606586" duration="4480000" />
+      <workItem from="1687614606586" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686963807264</created>
@@ -239,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687529796356</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Search远程调用模块开发">
+      <created>1687629243732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687629243732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +242,8 @@
     <MESSAGE value="regionWare模块开发" />
     <MESSAGE value="RegionWare模块开发" />
     <MESSAGE value="Product模块开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="Product模块开发" />
+    <MESSAGE value="Search远程调用模块开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search远程调用模块开发" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

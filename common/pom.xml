@@ -58,5 +58,11 @@
             <scope>provided </scope>
         </dependency>
 
+        <!--rabbitmq消息队列-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
