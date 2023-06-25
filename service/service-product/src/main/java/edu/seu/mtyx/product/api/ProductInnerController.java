@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@Api(value = "产品远程调用api") // 别的服务远程调用这个服务
+@Api(value = "产品远程调用api") // 别的服务远程调用这个Controller中的接口
 @RequestMapping("/api/product")
 @RestController
 public class ProductInnerController {

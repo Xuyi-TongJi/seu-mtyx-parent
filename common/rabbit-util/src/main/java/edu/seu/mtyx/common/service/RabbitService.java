@@ -12,7 +12,7 @@ public class RabbitService {
     /**
      * 发送消息
      * @param exchange  交换机
-     * @param routingKey   路由键
+     * @param routingKey   路由键 -> 路由到哪个队列
      * @param message   消息
      * @return 是否发送成功
      */
