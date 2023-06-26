@@ -209,4 +209,20 @@ public class SkuInfoServiceImpl extends ServiceImpl<SkuInfoMapper, SkuInfo> impl
         skuInfoUp.setIsNewPerson(status);
         baseMapper.updateById(skuInfoUp);
     }
+
+    @Override
+    public List<SkuInfo> findSkuInfoList(List<Long> skuIdList) {
+        return this.listByIds(skuIdList);
+    }
+
+    @Override
+    public List<SkuInfo> findSkuInfoByKeyword(String keyword) {
+        LambdaQueryWrapper<SkuInfo> wrapper = new LambdaQueryWrapper<SkuInfo>().eq(new SFunction<SkuInfo, String>() {
+            @Override
+            public String apply(SkuInfo skuInfo) {
+                return skuInfo.getSkuName();
+            }
+        }, keyword);
+        return this.list(wrapper);
+    }
 }

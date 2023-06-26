@@ -22,6 +22,8 @@ public class SkuServiceImpl implements SkuService {
 
     /**
      * 远程调用客户端Bean，可以发起远程调用
+     * 这个服务的启动类上必须有@EnableFeignClient注解
+     * 这个Client调用的url的启动类上必须有@EnableDiscoveryClient注解
      */
     @Autowired
     private ProductFeignClient productFeignClient;

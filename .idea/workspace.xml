@@ -4,20 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/config/MqProducerAckConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/receiver/SkuReceiver.java" afterDir="false" />
+    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="Activity模块开发+远程调用">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/ServiceActivityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/controller/ActivityInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/controller/CouponInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/ActivityInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/ActivityRuleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/ActivitySkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/xml/ActivityInfoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/ActivityInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/CouponInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/impl/ActivityInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/impl/CouponInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common-util/src/main/java/edu/seu/mtyx/common/config/MqConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/config/MqConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/constant/MqConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/constant/MqConst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/service/RabbitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/rabbit-util/src/main/java/edu/seu/mtyx/common/service/RabbitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/edu/seu/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/test/java/edu/seu/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/impl/SkuServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +50,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/AbstractJackson2MessageConverter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/AbstractMessageConverter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.2.12.RELEASE/spring-amqp-2.2.12.RELEASE-sources.jar!/org/springframework/amqp/support/converter/MessageConverter.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -70,18 +92,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "azul-1.8",
     "last_opened_file_path": "/Users/xuyitjuseu/seu-mtyx-parent/model/src/main/java/edu/seu/mtyx/model",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propGUI",
-    "spring.configuration.checksum": "1beb7c26905f7d1e6424502e0cfea75d",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "c4b2ff827f75e068a3d8a03c49b1c78a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/model/src/main/java/edu/seu/mtyx/model" />
@@ -97,13 +121,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="ServiceAclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="service-acl" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.acl.ServiceAclApplication" />
+  <component name="RunManager" selected="Spring Boot.ServiceProductApplication">
+    <configuration name="edu.seu.mtyx.ServiceProductApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.seu.mtyx.ServiceProductApplication" />
+      <module name="service-product" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.seu.mtyx.acl.*" />
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +135,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ServiceAclApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-acl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceAclApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceSysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-sys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.seu.mtyx.ServiceSysApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.seu.mtyx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceSysApplication" />
+        <item itemvalue="Spring Boot.ServiceProductApplication" />
+        <item itemvalue="Spring Boot.ServiceAclApplication" />
+        <item itemvalue="Application.edu.seu.mtyx.ServiceProductApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -121,7 +192,8 @@
       <option name="presentableId" value="Default" />
       <updated>1686852195635</updated>
       <workItem from="1686852196748" duration="18183000" />
-      <workItem from="1687090833889" duration="41408000" />
+      <workItem from="1687090833889" duration="74414000" />
+      <workItem from="1687614606586" duration="5588000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1686963807264</created>
@@ -158,7 +230,28 @@
       <option name="project" value="LOCAL" />
       <updated>1687253486009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Product模块开发">
+      <created>1687280241262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687280241262</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Product模块开发">
+      <created>1687529796356</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687529796356</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Search远程调用模块开发">
+      <created>1687629243732</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687629243732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +263,10 @@
     <MESSAGE value="admin模块和登录模块开发" />
     <MESSAGE value="regionWare模块开发" />
     <MESSAGE value="RegionWare模块开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="RegionWare模块开发" />
+    <MESSAGE value="Product模块开发" />
+    <MESSAGE value="Search远程调用模块开发" />
+    <MESSAGE value="Activity模块开发+远程调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Activity模块开发+远程调用" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

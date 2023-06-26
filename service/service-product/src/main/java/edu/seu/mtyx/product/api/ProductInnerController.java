@@ -5,11 +5,11 @@ import edu.seu.mtyx.model.product.SkuInfo;
 import edu.seu.mtyx.product.service.CategoryService;
 import edu.seu.mtyx.product.service.SkuInfoService;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Api(value = "产品远程调用api") // 别的服务远程调用这个Controller中的接口
 @RequestMapping("/api/product")
@@ -25,16 +25,30 @@ public class ProductInnerController {
     /**
      * 根据分类id获取分类信息
      */
+    @ApiOperation(value = "获取category信息")
     @GetMapping("inner/getCategory/{categoryId}")
-    public Category getCategory(@PathVariable Long categoryId) {
+    public Category getCategory(@PathVariable("categoryId") Long categoryId) {
         return categoryService.getById(categoryId);
     }
 
     /**
      * 根据sku id获取sku信息
      */
+    @ApiOperation(value = "获取sku信息")
     @GetMapping("inner/getSkuInfo/{skuId}")
-    public SkuInfo getSkuInfo(@PathVariable Long skuId) {
+    public SkuInfo getSkuInfo(@PathVariable("skuId") Long skuId) {
         return skuInfoService.getById(skuId);
+    }
+
+    @ApiOperation(value = "批量获取sku信息")
+    @GetMapping("inner/findSkuInfoList")
+    public List<SkuInfo> findSkuInfoList(@RequestBody List<Long> skuIdList) {
+        return skuInfoService.findSkuInfoList(skuIdList);
+    }
+
+    @ApiOperation(value = "根据关键字获取sku列表")
+    @GetMapping("inner/findSkuInfoByKeyword/{keyword}")
+    public List<SkuInfo> findSkuInfoByKeyword(@PathVariable("keyword") String keyword) {
+        return skuInfoService.findSkuInfoByKeyword(keyword);
     }
 }

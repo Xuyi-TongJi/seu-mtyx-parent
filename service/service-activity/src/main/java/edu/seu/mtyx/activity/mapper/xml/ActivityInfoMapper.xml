@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="edu.seu.mtyx.activity.mapper.ActivityInfoMapper">
+
+    <!-- 结果映射 -->
+    <resultMap id="ActivityRuleMap" type="edu.seu.mtyx.model.activity.ActivityRule" autoMapping="true">
+
+    </resultMap>
+    <resultMap id="ActivitySkuMap" type="edu.seu.mtyx.model.activity.ActivitySku" autoMapping="true">
+
+    </resultMap>
+
+    <select id="selectActivityRuleList" resultMap="ActivityRuleMap">
+        select
+            info.activity_type as activityType,
+            rule.id,
+            rule.activity_id
+            rule.condition_amount,
+            rule.condition_num,
+            rule.benefit_amount,
+            rule.benefit_discount
+        from
+            activity_rule as rule, activity_sku as sku, activity_info as info
+        where
+            rule.activity_id = sku.activity_id and rule.activity_id = info.id
+        and
+            sku.sku_id = #{skuId}
+        and
+            now() between info.start_time and info.end_time
+        order by
+            rule.condition_amount desc, rule.condition_num desc
+    </select>
+
+    <select id="selectExistSkuIdList" resultType="java.lang.Long">
+        select
+            sku.sku_id
+        from
+            activity_sku sku join activity_info info
+        on
+            sku.activity_id = info.id
+        <where>
+            <if test="skuIdList != null">
+                and sku.sku_id in
+                <foreach collection="skuIdList" item = "item" index = "index" open = "(" separator="," close = ")">
+                    #{item}
+                </foreach>
+            </if>
+                <!-- 有效期内的活动 -->
+            and now() between info.start_time and info.end_time
+        </where>
+    </select>
+
+</mapper>

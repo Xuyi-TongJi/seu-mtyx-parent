@@ -7,6 +7,8 @@ import edu.seu.mtyx.model.product.SkuInfo;
 import edu.seu.mtyx.vo.product.SkuInfoQueryVo;
 import edu.seu.mtyx.vo.product.SkuInfoVo;
 
+import java.util.List;
+
 public interface SkuInfoService extends IService<SkuInfo> {
     IPage<SkuInfo> selectPage(Page<SkuInfo> pageParam, SkuInfoQueryVo skuInfoQueryVo);
 
@@ -40,4 +42,8 @@ public interface SkuInfoService extends IService<SkuInfo> {
      * @param status new person
      */
     void isNewPerson(Long skuId, Integer status);
+
+    List<SkuInfo> findSkuInfoList(List<Long> skuIdList);
+
+    List<SkuInfo> findSkuInfoByKeyword(String keyword);
 }

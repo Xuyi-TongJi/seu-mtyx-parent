@@ -20,6 +20,8 @@
         <module>service-sys</module>
         <module>service-product</module>
         <module>service-search</module>
+        <module>service-activity</module>
+        <module>service-gateway</module>
     </modules>
 
     <properties>
