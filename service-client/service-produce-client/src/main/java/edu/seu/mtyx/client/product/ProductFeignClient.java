@@ -25,6 +25,6 @@ public interface ProductFeignClient {
     @GetMapping("/api/product/inner/findSkuInfoByKeyword/{keyword}")
     List<SkuInfo> findSkuInfoByKeyword(@PathVariable("keyword") String keyword);
 
-    @GetMapping("")
+    @PostMapping("/api/product/inner/findCategoryList")
     List<Category> findCategoryList(List<Long> rangeIdList);
 }
