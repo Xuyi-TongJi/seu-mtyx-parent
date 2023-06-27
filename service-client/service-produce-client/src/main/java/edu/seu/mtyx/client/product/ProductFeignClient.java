@@ -5,6 +5,7 @@ import edu.seu.mtyx.model.product.SkuInfo;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
@@ -18,9 +19,12 @@ public interface ProductFeignClient {
     @GetMapping("/api/product/inner/getSkuInfo/{skuId}")
     SkuInfo getSkuInfo(@PathVariable("skuId") Long skuId);
 
-    @GetMapping("/api/product/inner/findSkuInfoList")
+    @PostMapping("/api/product/inner/findSkuInfoList")
     List<SkuInfo> findSkuInfoList(@RequestBody List<Long> skuIdList);
 
     @GetMapping("/api/product/inner/findSkuInfoByKeyword/{keyword}")
     List<SkuInfo> findSkuInfoByKeyword(@PathVariable("keyword") String keyword);
+
+    @GetMapping("")
+    List<Category> findCategoryList(List<Long> rangeIdList);
 }

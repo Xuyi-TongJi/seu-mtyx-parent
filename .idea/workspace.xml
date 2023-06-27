@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/java/edu/seu/mtyx/ServiceGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/java/edu/seu/mtyx/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/PermissionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/constant/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/constant/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/CouponInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/CouponInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/impl/CouponInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/impl/CouponInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687743845924</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Gateway网关模块开发">
+      <created>1687848514945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687848514945</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +257,8 @@
     <MESSAGE value="Product模块开发" />
     <MESSAGE value="Search远程调用模块开发" />
     <MESSAGE value="Activity模块开发+远程调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Activity模块开发+远程调用" />
+    <MESSAGE value="Gateway网关模块开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gateway网关模块开发" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -31,6 +31,12 @@ public class ProductInnerController {
         return categoryService.getById(categoryId);
     }
 
+    @ApiOperation(value = "根据id获取category信息")
+    @PostMapping("inner/findCategoryList")
+    public List<Category> findCategoryList(@RequestBody List<Long> categoryIdList) {
+        return categoryService.listByIds(categoryIdList);
+    }
+
     /**
      * 根据sku id获取sku信息
      */
@@ -41,7 +47,7 @@ public class ProductInnerController {
     }
 
     @ApiOperation(value = "批量获取sku信息")
-    @GetMapping("inner/findSkuInfoList")
+    @PostMapping("inner/findSkuInfoList")
     public List<SkuInfo> findSkuInfoList(@RequestBody List<Long> skuIdList) {
         return skuInfoService.findSkuInfoList(skuIdList);
     }
