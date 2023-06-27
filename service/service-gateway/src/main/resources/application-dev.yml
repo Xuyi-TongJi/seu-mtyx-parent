@@ -8,8 +8,9 @@ spring:
         locator:
           enabled: true
       routes:
+        # 将/*/acl/**的请求转发到lb://service-acl
         - id: service-acl
-          uri: lb://service-acl
+          uri: lb://service-acl # 负载均衡地址 service-acl为服务名
           predicates:
             - Path=/*/acl/**
 

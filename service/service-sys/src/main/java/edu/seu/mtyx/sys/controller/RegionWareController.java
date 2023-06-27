@@ -15,7 +15,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/admin/sys/regionWare")
 @Api(tags = "RegionWare管理")
-@CrossOrigin //跨域
 public class RegionWareController {
 
     @Autowired

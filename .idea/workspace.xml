@@ -4,36 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="Activity模块开发+远程调用">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/ServiceActivityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/controller/ActivityInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/controller/CouponInfoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/ActivityInfoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/ActivityRuleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/ActivitySkuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/mapper/xml/ActivityInfoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/ActivityInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/CouponInfoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/impl/ActivityInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/java/edu/seu/mtyx/activity/service/impl/CouponInfoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-activity/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dc453d02-5e25-4b08-9974-fe7a4bdca655" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/java/edu/seu/mtyx/ServiceGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/service-gateway/src/main/java/edu/seu/mtyx/config/CorsConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-client/service-produce-client/src/main/java/edu/seu/mtyx/client/product/ProductFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/api/ProductInnerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/SkuInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/impl/SkuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-search/src/main/java/edu/seu/mtyx/search/service/impl/SkuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-acl/src/main/java/edu/seu/mtyx/acl/controller/PermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-gateway/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/AttrGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-product/src/main/java/edu/seu/mtyx/product/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/service-sys/src/main/java/edu/seu/mtyx/sys/controller/RegionWareController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687629243732</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Activity模块开发+远程调用">
+      <created>1687743845924</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687743845924</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
