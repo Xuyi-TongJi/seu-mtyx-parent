@@ -33,9 +33,6 @@ public class CouponInfoServiceImpl extends ServiceImpl<CouponInfoMapper, CouponI
     private CouponInfoMapper couponInfoMapper;
 
     @Autowired
-    private CouponUseMapper couponUseMapper;
-
-    @Autowired
     private CouponRangeMapper couponRangeMapper;
 
     /**
@@ -82,6 +79,7 @@ public class CouponInfoServiceImpl extends ServiceImpl<CouponInfoMapper, CouponI
 
         List<Long> rangeIdList = activitySkuList.stream().map(CouponRange::getRangeId).collect(Collectors.toList());
 
+        // 一个coupon只有一种rangeType
         if (!CollectionUtils.isEmpty(rangeIdList)) {
             if (couponInfo.getRangeType() == CouponRangeType.SKU) {
                 // PRC
